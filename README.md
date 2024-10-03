@@ -19,4 +19,15 @@
 ## IP & MAC address
  ### IP addresses:
 
-- 
+- 2 types: IPv4, IPv6
+
+### IPv4: four decimal numbers seperated by dots - 32 bit address
+
+### IPv6: eight groups of four hexadecimal digits (numbers 0-9 & letters A-f) - 128 but address
+
+## MAC Addresses 
+
+- 48 bit address 
+- displayed in hexadecimal format 
+- Operate at the data link layer 
+- helps devices communicate with each other on a local network
