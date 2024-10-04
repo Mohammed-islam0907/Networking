@@ -80,4 +80,55 @@
 2. Data Link - Node to node transfer (switches/ethernet)
 1. Physical - Physical structure - Fibre, wireless.. 
 
-## **Physical** 
+![7 Layer](/Images/OSI.png)
+
+
+## 1. **Physical** 
+- transmits eaw bit streams over physical medium e.g. cables, switches, NIC's
+
+
+## 2. Data Link 
+- Node - node data transfer 
+- layer 1 is unordered 
+- this layer puts the data into frames 
+- MAC addresses - switches/bridges
+
+## 3. Network Layer
+
+- Determines how data is sent to recipient
+- Manages routing through routers
+- IP addresses/Routers
+
+## 4. Transport
+
+- TCP, UDP
+- Provides reliable data transfer services to the upper layers 
+
+## 5. Session Layer 
+
+- Responsible for Establishing, Maintaining, Terminating session
+- Session Managemnt Protocols
+
+## 6. Presentation Layer
+
+- Handles encryption
+- AKA syntax layer
+- Translates data between application and network layer
+- SSL/TLS
+
+## Application Layer
+
+- End user layer
+- Handles web browsing, file transfer, email
+- HTTP(web), FTTP(File transfer), SMTP(mails)
+
+## TCP/IP model 
+
+![TCP/IP Model](/Images/TCP%3AIP%20model.png)
+
+TOP
+    Application - network applications and their protocols operate like HTTP, TLS, DNS
+    Transport - End to end communication - TCP/IP
+    Internet - Responsible for routing data between networks - IP
+    Network Access Layer - Condensed format of Layer 1 and 2 of OSI model - encompasses physical and data link
+BOTTOM
