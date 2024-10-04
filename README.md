@@ -45,9 +45,9 @@
 - like languages devices use to communicate with eachother
 - 
 
-### Ports:
+## **Ports:**
 
-1. TCP: Transmission Control Protocol
+1. **TCP: Transmission Control Protocol**
     - Like postman of the internet
     - ensures that data sent from one devices reaches another device 
     - Before data is sent, **connection must be established**
@@ -64,3 +64,5 @@
     - Used for real -time applications e.g. Facetime/Games
     - DNS
     - VPN
+
+![TCP vs UDP](Images/TCP%20vs%20UDP.png) 
