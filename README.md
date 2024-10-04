@@ -66,3 +66,18 @@
     - VPN
 
 ![TCP vs UDP](Images/TCP%20vs%20UDP.png) 
+
+
+## Introduction to the **OSI Model**
+
+### **7 Layers:**
+
+7. Application - Network services are given directly to applications
+6. Presentation - Data is translated to readable format 
+5. Sessions 
+4. Transport - End to end communication - TCP/UDP
+3. Network - Routing and forwarding data packets manages
+2. Data Link - Node to node transfer (switches/ethernet)
+1. Physical - Physical structure - Fibre, wireless.. 
+
+## **Physical** 
