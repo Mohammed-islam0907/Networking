@@ -31,3 +31,5 @@
 - displayed in hexadecimal format 
 - Operate at the data link layer 
 - helps devices communicate with each other on a local network
+- node - node transfer
+- Essential in making sure your device connects to the right router 
