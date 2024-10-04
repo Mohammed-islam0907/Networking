@@ -33,3 +33,34 @@
 - helps devices communicate with each other on a local network
 - node - node transfer
 - Essential in making sure your device connects to the right router 
+
+
+## Ports & Protocols
+
+- **Ports: Facilitates communication between devices**
+- like logical doors for devices 
+- When computer wants to send/receive data it uses these ports
+
+- **Protocols: Ensure devices communicate effectively by following same set of rules**
+- like languages devices use to communicate with eachother
+- 
+
+### Ports:
+
+1. TCP: Transmission Control Protocol
+    - Like postman of the internet
+    - ensures that data sent from one devices reaches another device 
+    - Before data is sent, **connection must be established**
+    - Requires "Handshake" - ensures both devices are ready to send and receive data   
+    - **Reliable** - ensures all data is received on the other end
+    - ensures data is delivered in correct order
+    - checks for errors in data 
+    - Used whenever 2 devices need to exchange data back and forth e.g. emails
+
+2. UDP: User Datagram Protocol
+    - Simple protocol to senfd and receive 
+    - Prior communicatio not needed
+    - fast but less reliable
+    - Used for real -time applications e.g. Facetime/Games
+    - DNS
+    - VPN
