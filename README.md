@@ -134,3 +134,22 @@ TOP
 BOTTOM
 
 
+## **DNS (Domain Name Server)**
+
+**DNS: Translate Domain Name into IP address**
+
+### DNS Components
+
+**Name Servers (2 types)**
+1. Authoritative:
+    - Hold actual DNS record of domains and provides correct IP address when asked by recursive server
+    - When recursive name server reaches an authoritative serverm it doesn't need to look any further because it has the official DNS records
+    - Managed by DNS hosting provider e.g. GoDaddy
+2. Recursive: 
+    - Like the middle man - hunts for the IP address
+    - Asks other DNS servers for information
+    - Recursive name server provided by ISP or use public DNS service e.g. Google DNS
+    - How it works:
+    - Computer asks recursive name server for the IP address of www.wxample.com
+    - Recursive server looks into its cahce to see if it already knows the IP address
+    - If it does, it retuen answer to computer or it looks into authorative name server for answer
