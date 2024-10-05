@@ -113,7 +113,7 @@
 - Where encryption occurs
 - SSL/TLS
 
-## Application Layer
+## 7. Application Layer
 
 - End user layer
 - Provides network services to user
@@ -127,10 +127,10 @@
 - A simplified version of OSI model - used in intenret  communication
 - 4 layers:
 TOP
-    Application - network applications and their protocols operate like HTTP, TLS, DNS
-    Transport - End to end communication - TCP/IP
-    Internet - Responsible for routing data between networks - IP
-    Network Access Layer - Encompasses physical and data link layer of the OSI model 
+    4. Application - Software applications interact with the network - HTTP (Web), FTP (File transfer), SMPT (Email)
+    3. Transport - End to end transportation of data  - TCP/IP
+    2. Internet - Responsible for ensuring data packets find their route from source to destination across different networks - IP
+    1. Network Access - Encompasses physical and data link layer of the OSI model 
 BOTTOM
 
 
