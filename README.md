@@ -152,4 +152,5 @@ BOTTOM
     - How it works:
     - Computer asks recursive name server for the IP address of www.wxample.com
     - Recursive server looks into its cahce to see if it already knows the IP address
-    - If it does, it retuen answer to computer or it looks into authorative name server for answer
+    - If it does, it returns answer to computer or it looks into authorative name server for answer
+    - Returns IP address to computer
