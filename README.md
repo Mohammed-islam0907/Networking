@@ -101,6 +101,7 @@
 
 ## 4. Transport
 
+- End to end communication 
 - TCP, UDP
 - Provides reliable data transfer services to the upper layers 
 
@@ -132,3 +133,5 @@ TOP
     Internet - Responsible for routing data between networks - IP
     Network Access Layer - Condensed format of Layer 1 and 2 of OSI model - encompasses physical and data link
 BOTTOM
+
+
