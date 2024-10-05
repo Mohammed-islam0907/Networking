@@ -84,54 +84,53 @@
 
 
 ## 1. **Physical** 
-- transmits eaw bit streams over physical medium e.g. cables, switches, NIC's
-
+- Deals with the physical components of network communication like cables, switches, and routers.
+- Ethernet, USB, Bluetooth, Fibre optic cables
 
 ## 2. Data Link 
-- Node - node data transfer 
-- layer 1 is unordered 
-- this layer puts the data into frames 
-- MAC addresses - switches/bridges
+- Ensures reliable transmission of data across physical network
+- Manages how devices on a network can access 
+- Switches -Switching
 
 ## 3. Network Layer
 
-- Determines how data is sent to recipient
-- Manages routing through routers
-- IP addresses/Routers
+- Handles movement of packets from sender to receiver
+- IP addresses, Routers - routing
 
 ## 4. Transport
 
-- End to end communication 
-- TCP, UDP
 - Provides reliable data transfer services to the upper layers 
-
+- Establishes rnd to end communication and data reliability
+- TCP, UDP
 ## 5. Session Layer 
 
 - Responsible for Establishing, Maintaining, Terminating session
-- Session Managemnt Protocols
+- Session Managemnt Protocols - NFS, SQL
 
 ## 6. Presentation Layer
 
-- Handles encryption
-- AKA syntax layer
-- Translates data between application and network layer
+- Makes sure data is in useable format 
+- Where encryption occurs
 - SSL/TLS
 
 ## Application Layer
 
 - End user layer
-- Handles web browsing, file transfer, email
-- HTTP(web), FTTP(File transfer), SMTP(mails)
+- Provides network services to user
+- Handles web browsing, file transfer, emails etc.
+- HTTP(web), FTP(File transfer), SMTP(mails)
 
 ## TCP/IP model 
 
 ![TCP/IP Model](/Images/TCP%3AIP%20model.png)
 
+- A simplified version of OSI model - used in intenret  communication
+- 4 layers:
 TOP
     Application - network applications and their protocols operate like HTTP, TLS, DNS
     Transport - End to end communication - TCP/IP
     Internet - Responsible for routing data between networks - IP
-    Network Access Layer - Condensed format of Layer 1 and 2 of OSI model - encompasses physical and data link
+    Network Access Layer - Encompasses physical and data link layer of the OSI model 
 BOTTOM
 
 
