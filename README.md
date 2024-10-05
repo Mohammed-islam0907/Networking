@@ -154,3 +154,4 @@ BOTTOM
     - Recursive server looks into its cahce to see if it already knows the IP address
     - If it does, it returns answer to computer or it looks into authorative name server for answer
     - Returns IP address to computer
+    - Recursive server then caches IP address for future queries
