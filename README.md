@@ -165,3 +165,7 @@ BOTTOM
 - They organise DNS information in readable and manegable way 
 
 ![Zone file](/Images/Zone%20file.png)
+
+## DNS Components: Records
+
+- 
