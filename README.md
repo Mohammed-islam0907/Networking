@@ -146,7 +146,7 @@ BOTTOM
     - When recursive name server reaches an authoritative serverm it doesn't need to look any further because it has the official DNS records
     - Managed by DNS hosting provider e.g. GoDaddy
 2. Recursive: 
-    - Like the middle man - hunts for the IP address
+    - Like the middle man - hunts for the **IP address**
     - Asks other DNS servers for information
     - Recursive name server provided by ISP or use public DNS service e.g. Google DNS
     - How it works:
@@ -155,3 +155,13 @@ BOTTOM
     - If it does, it returns answer to computer or it looks into authorative name server for answer
     - Returns IP address to computer
     - Recursive server then caches IP address for future queries
+
+
+
+**Zone Files**
+
+- Stored in name servers - contain information about domain
+- Help name server get to the domain if the name server doesn't know how to get to it directly 
+- They organise DNS information in readable and manegable way 
+
+![Zone file](/Images/Zone%20file.png)
