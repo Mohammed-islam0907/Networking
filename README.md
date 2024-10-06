@@ -168,4 +168,17 @@ BOTTOM
 
 ## DNS Components: Records
 
+![Records](/Images/Records.png)
+
+**A & AAAA Records**
+- A - Maps domain to IPv4 address
+- AAAA - Maps domain to IPv6 address
+
+**CNAME Records** 
+- Alias of one name to another 
+- e.g. www.google to come -> google.com
+
+**MX Records**
+- Mail Exchange record
+- Specifies mail server for a domain
 - 
