@@ -204,4 +204,13 @@ BOTTOM
 
 ![Process](Images/DNS%20Resolution%20process.png)
 
+1. Type google.com
+2. Browser sends query to a DNS resolver - DNS resolver looks for IP address - checks its local cache if it has IP address. If not it moves to next step
+3. Resolver (Recursive name server) then queries root server for IP address. Root name server (top of DNS hierarchy) doesn't know the IP address but can direct the resolver to a specific resource - respond with address of TLD server; **.com**
+4. Resolver queries TLD server - doesn't know IP address but can provide address of an **Authoritative name server**
+5. Provides address of an **Authoritative name server**
+6. Resolver queries Authoritative name server, whcih holds the actual DNS records for the domain, including IP address
+7. IP address sent to DNS resolver
+8. DNS resolver sends IP address to browser
+
 
