@@ -217,4 +217,9 @@ BOTTOM
 
 Debugging, troubleshooting, setting up networks and VPC's
 
-Domain 
+## Domain Registrar vs DNS Hosting Provider
+
+- Registrar: allows you to purchase and register domains e.g. GoDaddy
+- DNS Hosting: Operates DNS Nameservers that host DNS zones e.g. AWS
+
+
