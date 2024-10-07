@@ -200,3 +200,8 @@ BOTTOM
 3. Authoritative Name Servers - contain detailed DNS records for domains e.g. google.com has its own domain record stored here
 4. Domains - each domain has a zone and zone file which store DNS records for that domain (Authorative)
 
+**DNS Resolution Process**
+
+![Process](Images/DNS%20Resolution%20process.png)
+
+
