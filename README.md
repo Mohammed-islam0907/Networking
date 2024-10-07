@@ -186,3 +186,17 @@ BOTTOM
 **TXT Records**
 - Purpose - verifies you own the domain
 - Write text into domain
+
+## How DNS works
+
+- DNS Resolution - process of converting domain name into IP address
+
+
+**DNS Hierarchy**
+
+![DNS Hierarchy](Images/DNS%20hierarchy.png)
+1. DNS Root - top of hierarchy - keeps high level information on where to find Top Level Domains (TLD's) beneath it
+2. TLD - Department head - contain familiar extensions e.g. **.com, .org, .net** 
+3. Authoritative Name Servers - contain detailed DNS records for domains e.g. google.com has its own domain record stored here
+4. Domains - each domain has a zone and zone file which store DNS records for that domain (Authorative)
+
