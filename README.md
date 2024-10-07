@@ -180,5 +180,9 @@ BOTTOM
 
 **MX Records**
 - Mail Exchange record
-- Specifies mail server for a domain
-- 
+- Defines mail server for a domain
+- Ensures email delivery is reliable
+
+**TXT Records**
+- Purpose - verifies you own the domain
+- Write text into domain
