@@ -213,4 +213,8 @@ BOTTOM
 7. IP address sent to DNS resolver
 8. DNS resolver sends IP address to browser
 
+## Importnce of DNS resolution for DevOPs Engineers
 
+Debugging, troubleshooting, setting up networks and VPC's
+
+Domain 
