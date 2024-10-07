@@ -223,3 +223,5 @@ Debugging, troubleshooting, setting up networks and VPC's
 - DNS Hosting: Operates DNS Nameservers that host DNS zones e.g. AWS
 
 
+## Network Debugging Tools: **nslookup** & **dig**
+
