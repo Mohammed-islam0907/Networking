@@ -354,3 +354,10 @@ Base-2 number system - uses 0 & 1
 
 **NAT Example**
 ![NAT example](Images/NAT%20example.png)
+- Allows devices to communicate without exposing private IP address
+
+**Benefits of NAT**
+
+1. Conservation of public IP addresses
+2. Enhances security (Hides private IP)
+
