@@ -225,3 +225,14 @@ Debugging, troubleshooting, setting up networks and VPC's
 
 ## Network Debugging Tools: **nslookup** & **dig**
 
+- ```nslookup (domain)``` allows you to find information about DNS records for domain
+e.g.
+
+```bash 
+nslookup google.com
+``` 
+![nslookup](Images/nslookup.png)
+- **non-authoraitative** means response came from the cache and not from authoratative DNS server for google.com
+
+- ```dig (domain)```
+- more advanced 
