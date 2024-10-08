@@ -334,3 +334,16 @@ Base-2 number system - uses 0 & 1
     - 192.168.1.62
     - Therefore total number of useable IP addresses is 62 (from **192.168.1.1** to **192.168.1.62**)
 
+
+## NAT (Network Address Translation)
+
+- Converts private IP's into single, public IP 
+- E.g. at home, your devices have their own private IP addresses, but when they go online, they all share 1 public IP address
+- NAT handles this translation 
+- Without this, each device would need its own public IP address which is not practical due to limited number of public IP addresses (IPv4 is running out)
+
+**How NAT works**
+1. Internal devices use private IP addresses
+2. Router translates private IP address into public IP address
+3. Faclitates communication with external networks
+
