@@ -311,3 +311,23 @@ Base-2 number system - uses 0 & 1
 
 
 ## Calculating Subnets
+
+**Subnet Masks: Defines network and host parts**
+![Subnet Masks](Images/Subnet%20Masks.png)
+
+## Example: subnet 192.168.1.0/26
+
+**Finding Brodcast address**
+- Network address: 192.168.1.0
+- /26 CIDR notation means the first 26 bits are used for network and the remaining 6 is for the host 
+- /26 shows the number of bits set to 1
+- Therefore the subnet mask in binary is: 11111111.11111111.11111111.11000000 
+- Inverting the mask gives ud the host bits: 00000000.00000000.00000000.00111111
+- Convert to decimal: 0.0.0.63
+
+- Add this to network address to find Broadcast address: 192.169.1.63
+
+**Useable IP address**
+- First useable IP addres: The network address + 1
+    - 192.168.1.1
+
