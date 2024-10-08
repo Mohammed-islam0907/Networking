@@ -291,3 +291,23 @@ Routing is the process of determining the best path for data to travel between n
 - Used to route data between different autonomous systems 
 - Autonomous systems - large networks managed by single organistaions
 - Allows network admins to define routing policies - greater control 
+
+## Subnetting
+**Subnetting: Dividing a large network into smaller networks (subnets)**
+- Improves network management
+- CIDR notation:
+![CIDR](Images/CIDR.png)
+
+## Binary
+
+Base-2 number system - uses 0 & 1
+
+**Binary -> Decimal conversion**
+![Binary -> Decimal](Images/binary%20-%3E%20Decimal%20.png)
+
+**IP -> Binary**
+
+![IP -> Binary](Images/IP%20-%3E%20Binary.png)
+
+
+## Calculating Subnets
