@@ -330,4 +330,7 @@ Base-2 number system - uses 0 & 1
 **Useable IP address**
 - First useable IP addres: The network address + 1
     - 192.168.1.1
+- Last useable IP address: Broadcast address - 1
+    - 192.168.1.62
+    - Therefore total number of useable IP addresses is 62 (from **192.168.1.1** to **192.168.1.62**)
 
