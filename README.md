@@ -351,3 +351,6 @@ Base-2 number system - uses 0 & 1
 - Static - maps single private IP to a single public IP address
 - Dynamic - maps private IP to a public pool of IP addresses - once finished using this public IP address, it goes back into the pool for someone else to use
 - PAT (Port Address Translation) - Allows multiple devices on local network to be mapped to a single public address but each has its own port number 
+
+**NAT Example**
+![NAT example](Images/NAT%20example.png)
