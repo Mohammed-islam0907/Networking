@@ -236,3 +236,41 @@ nslookup google.com
 
 - ```dig (domain)```
 - more advanced 
+
+
+## /etc/hosts File
+
+- Local file on computer
+- maps domain names to IP addresses
+- when you type a domain into browser, it first checks this file, before quering DNS server 
+
+**Editing /etc/hosts**
+ 
+1. Open file with text editor ```sudo vim /etc/hosts```
+2. Format: IP_address doamin_name
+
+
+## Routing
+
+Routing is the process of determining the best path for data to travel between networks
+- Ensures data reaches destination efficiently
+
+## Importance of routing
+- Good routes reduces latency
+- Ensures reliable application delivery
+- Crucial for managing complex infastructures
+
+## Static and dynamic routing
+
+- Routes are manually set by Network admins 
+- Dynamic - uses algorithms to automatically find the best route (Like navigation - Google Maps)
+
+**Static Routing**
+- manually configured
+- fixed routes
+- simple but not scalable - not good for larger networks but good for simple
+
+**Dynamic Routing**
+- Routes are adjusted automatically
+- Uses routing protocols to find best path
+- Scalabel and adaptable - responds to changes in network (like navigation responds to traffic and chooses different routes)
