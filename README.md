@@ -274,3 +274,20 @@ Routing is the process of determining the best path for data to travel between n
 - Routes are adjusted automatically
 - Uses routing protocols to find best path
 - Scalabel and adaptable - responds to changes in network (like navigation responds to traffic and chooses different routes)
+
+## Routing Protocols
+
+- **Routing Protocols - Algorithms that determine best paths** 
+- Automate route updates
+- enhances efficieny - takes best route 
+- 2 common protocols OSPF & BGP
+
+**OSPF (Open Shortest Path First)**
+- Finds shortest path for data to travel
+- Used in large organisation 
+- Quickly recalculates routes when there are changes in the network
+
+**BGP (Border Gateway Protocol)**
+- Used to route data between different autonomous systems 
+- Autonomous systems - large networks managed by single organistaions
+- Allows network admins to define routing policies - greater control 
