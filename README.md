@@ -397,3 +397,12 @@ Base-2 number system - uses 0 & 1
 
 1. check network connectivity using ping command - return=network is good
 2. nslookup - to check DNS is working
+
+## Cloud Networking
+
+- Practice of managing networks in cloud environments
+
+**Components**
+- VPC's (Virtual Private Cloud) - own private network in the cloud 
+- Subnets - Subdivisions of VPC - different subnets for different resources
+- Gateways - Connect VPC to internet  
