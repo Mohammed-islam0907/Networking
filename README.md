@@ -361,3 +361,39 @@ Base-2 number system - uses 0 & 1
 1. Conservation of public IP addresses
 2. Enhances security (Hides private IP)
 
+## Troubleshooting
+
+- Ensures smooth operation
+- Identify and fix issues
+- Minimise downtime
+
+**Examples**
+
+- Connectivity loss
+- Slow network performance
+- IP address conflict (2 devices on same network have same IP address)
+- DNS resolution failitures 
+
+**Identifying symptoms**
+- e.g. Device can't access internet:
+    - check physical connection    
+    - Test with ping command 
+    - and more...
+
+**Troubleshooting with ping command**
+- ping - tests connectivity between devices
+```ping google.com```
+**Troubleshooting with traceroute command**
+- tracks path your data takes to reach certain destination.
+- e.g. ```traceroute google.com```
+
+**Troubleshooting with nslookup command**
+- To find IP address assosiated with domain name
+- e.g. ```nslookup google.com```
+
+## Practical example
+
+**I can't access a website**
+
+1. check network connectivity using ping command - return=network is good
+2. nslookup - to check DNS is working
